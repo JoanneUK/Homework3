@@ -1,0 +1,67 @@
+Create function and length of password
+
+Set character variables inside the function
+
+Set variable for all of the characters
+
+Set variable for the actual password
+
+Set random selector in a for loop
+
+Ask for a return of the password
+
+Connect pages
+
+Add handler for the Generate Password button
+
+
+
+
+
+
+
+
+
+
+
+
+Need 1 upper case letter
+need lower case
+need numbers
+need special character
+
+generate random numbers
+Call for math. random
+
+Loop this to get multiple numbers?
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 26);
+</script>
+
+
+generate random upper case
+Set an array using whole alphabet?
+Call for one letter
+
+generate random lower case
+Whole alphabet array?
+let lowercase = "abcdefghijklmnopqrstuvwxyz"
+add math random as an index into the string
+call for 6 letters?
+
+generate special character
+Set array with characters
+
+Boolean questions?? True/ False - have all the criteria been met?
+
+
+
+for loop - 10 x to make new letters
+
+addevent listener is the button to click to generate the password
+
+
+document.getElementById("myBtn").addEventListener("click", function(){
+  document.getElementById("demo").innerHTML = "Generate Password";
+});
